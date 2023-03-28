@@ -8,9 +8,8 @@ import javax.swing.JFrame;
 public class GameWorld extends JFrame{
 
 	GameWorld(){
-			
 		this.add(new Panel());
-		this.setTitle("A* Snake");
+		this.setTitle("BFS Snake");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setResizable(false);
 		this.pack();
